@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_devcf.newscript1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>newscript1</name>
+        <script><![CDATA[var newscript1 = Class.create();
+newscript1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'newscript1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chris.faulkner@snc</sys_created_by>
+        <sys_created_on>2019-08-21 16:51:39</sys_created_on>
+        <sys_id>b2ddca93dbd77300f28af78eaf961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>newscript1</sys_name>
+        <sys_package display_value="devcf" source="x_snc_devcf">56bdc293dbd77300f28af78eaf961927</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="devcf">56bdc293dbd77300f28af78eaf961927</sys_scope>
+        <sys_update_name>sys_script_include_b2ddca93dbd77300f28af78eaf961978</sys_update_name>
+        <sys_updated_by>chris.faulkner@snc</sys_updated_by>
+        <sys_updated_on>2019-08-21 16:51:39</sys_updated_on>
+    </sys_script_include>
+</record_update>
